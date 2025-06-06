@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card class="home-card" color="light">
+    <ion-card-header class="ion-text-center">
+      <ion-img src="assets/img/logo.jfif" alt="CarFinder Logo" style="max-width: 150px; margin: 0 auto;"></ion-img>
+      <ion-card-title style="margin-top: 10px;">Bienvenido a CarFinder</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-text-center">
+      <p>Localiza y reporta vehículos robados de forma rápida.</p>
+      <p>Ayuda a mantener segura tu comunidad colaborando con otros usuarios.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="full" color="primary" routerLink="/login">
+    <ion-icon slot="start" name="log-in-outline"></ion-icon>
+    Iniciar Sesión
+  </ion-button>
+
+  <ion-button expand="full" color="secondary" routerLink="/registro">
+    <ion-icon slot="start" name="person-add-outline"></ion-icon>
+    Registrarse
+  </ion-button>
+</ion-content>
